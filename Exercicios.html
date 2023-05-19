@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        h2 {
+            padding-top: 20px;
+        }
+        #voltar{
+            background-color: #024059;
+            display: block;
+            margin: auto;
+        }
+        .answer {
+            background-color: #03a64a91;
+            text-align: justify;
+            display: none;
+        }
+        body{
+            background-color: white;
+            color: black;
+        }
+      </style>
+    </head>
+    <body>
+        <header>
+            <h1 id="T1">Exercícios sobre Augusto dos Anjos e o Pré-Modernismo</h1>
+        </header>
+      <main>
+          <section>
+            <h2>Exercício 1:</h2>
+            <form>
+              <p>Qual é o nome completo do poeta conhecido como Augusto dos Anjos?</p>
+              <ol type="a">
+                <li> <input type="radio" name="q1" value="a"> Augusto de Carvalho Anjos</li>
+                <li> <input type="radio" name="q1" value="b"> Augusto dos Reis Anjos</li>
+                <li> <input type="radio" name="q1" value="c"> Augusto de Oliveira Anjos</li>
+                <li> <input type="radio" name="q1" value="d"> Augusto dos Anjos é seu nome completo</li>
+              </ol>
+              <div class="answer" id="answer1">
+                Resposta correta: (a) Augusto de Carvalho Anjos
+              </div>
+              <button type="button" class="button" onclick="showAnswer('answer1')">Mostrar Resposta</button>
+            </form>
+            <hr>
+          
+            <h2>Exercício 2:</h2>
+            <form>
+              <p>Em que ano Augusto dos Anjos nasceu?</p>
+              <ol type="a">
+                <li> <input type="radio" name="q2" value="a"> 1870</li>
+                <li> <input type="radio" name="q2" value="b"> 1884</li>
+                <li> <input type="radio" name="q2" value="c"> 1897</li>
+                <li> <input type="radio" name="q2" value="d"> 1907</li>
+              </ol>
+              <div class="answer" id="answer2">
+                Resposta correta: (b) 1884
+              </div>
+              <button type="button" class="button" onclick="showAnswer('answer2')">Mostrar Resposta</button>
+            </form>
+            <hr>
+          
+            <h2>Exercício 3:</h2>
+            <form>
+              <p>Qual é a obra mais conhecida de Augusto dos Anjos?</p>
+              <ol type="a">
+                <li> <input type="radio" name="q3" value="a"> "Eu"</li>
+                <li> <input type="radio" name="q3" value="b"> "Versos Íntimos"</li>
+                <li> <input type="radio" name="q3" value="c"> "A Escrava que não é Isaura"</li>
+                <li> <input type="radio" name="q3" value="d"> "Vozes d'África"</li>
+              </ol>
+              <div class="answer" id="answer3">
+                Resposta correta: (b) "Versos Íntimos"
+              </div>
+              <button type="button" class="button" onclick="showAnswer('answer3')">Mostrar Resposta</button>
+            </form>
+            <hr>
+          
+            <h2>Exercício 4:</h2>
+            <form>
+              <p>Quais são as principais características da poesia de Augusto dos Anjos?</p>
+              <ol type="a">
+                <li> <input type="radio" name="q4" value="a"> Pessimismo, visão cientificista e temática rural</li>
+                <li> <input type="radio" name="q4" value="b"> Otimismo, visão religiosa e temática urbana</li>
+                <li> <input type="radio" name="q4" value="c"> Romantismo, visão mística e temática amorosa</li>
+                <li> <input type="radio" name="q4" value="d"> Simbolismo, visão naturalista e temática social</li>
+              </ol>
+              <div class="answer" id="answer4">
+                Resposta correta: (a) Pessimismo, visão cientificista e temática rural
+              </div>
+              <button type="button" class="button" onclick="showAnswer('answer4')">Mostrar Resposta</button>
+            </form>
+            <hr>
+          
+            <h2>Exercício 5:</h2>
+            <form>
+              <p>Em que período literário o poeta Augusto dos Anjos se enquadra?</p>
+              <ol type="a">
+                <li> <input type="radio" name="q5" value="a"> Modernismo</li>
+                <li> <input type="radio" name="q5" value="b"> Pré-Modernismo</li>
+                <li> <input type="radio" name="q5" value="c"> Romantismo</li>
+                <li> <input type="radio" name="q5" value="d"> Realismo</li>
+              </ol>
+              <div class="answer" id="answer5">
+                Resposta correta: (b) Pré-Modernismo
+              </div>
+              <button type="button" class="button" onclick="showAnswer('answer5')">Mostrar Resposta</button>
+              <h2>Exercício 6:</h2>
+            <form>
+                <p>O Pré-Modernismo foi um movimento literário brasileiro que antecedeu qual período literário?</p>
+                <ol type="a">
+                <li> <input type="radio" name="q6" value="a"> Modernismo</li>
+                <li> <input type="radio" name="q6" value="b"> Realismo</li>
+                <li> <input type="radio" name="q6" value="c"> Romantismo</li>
+                <li> <input type="radio" name="q6" value="d"> Pós-Modernismo</li>
+                </ol>
+                <div class="answer" id="answer6">
+                Resposta correta: (a) Modernismo
+                </div>
+                <button type="button" class="button" onclick="showAnswer('answer6')">Mostrar Resposta</button>
+            </form>
+            <hr>
+
+            <!-- Exercício 7 -->
+            <h2>Exercício 7:</h2>
+            <form>
+                <p>Quais são as características principais do Pré-Modernismo?</p>
+                <ol type="a">
+                <li> <input type="radio" name="q7" value="a"> Valorização do regionalismo, crítica social e linguagem coloquial</li>
+                <li> <input type="radio" name="q7" value="b"> Exaltação da natureza, idealização amorosa e linguagem rebuscada</li>
+                <li> <input type="radio" name="q7" value="c"> Foco no individualismo, exaltação da razão e linguagem formal</li>
+                <li> <input type="radio" name="q7" value="d"> Valorização da religiosidade, visão mística e linguagem simbólica</li>
+                </ol>
+                <div class="answer" id="answer7">
+                Resposta correta: (a) Valorização do regionalismo, crítica social e linguagem coloquial
+                </div>
+                <button type="button" class="button" onclick="showAnswer('answer7')">Mostrar Resposta</button>
+            </form>
+            <hr>
+
+            <!-- Exercício 8 -->
+            <h2>Exercício 8:</h2>
+            <form>
+                <p>Qual foi a obra mais famosa de Augusto dos Anjos?</p>
+                <ol type="a">
+                <li> <input type="radio" name="q8" value="a"> "Eu"</li>
+                <li> <input type="radio" name="q8" value="b"> "Vila dos Confins"</li>
+                <li> <input type="radio" name="q8" value="c"> "Os Sertões"</li>
+                <li> <input type="radio" name="q8" value="d"> "A Hora da Estrela"</li>
+                </ol>
+                <div class="answer" id="answer8">
+                Resposta correta: (a) "Eu"
+                </div>
+                <button type="button" class="button" onclick="showAnswer('answer8')">Mostrar Resposta</button>
+            </form>
+            <hr>
+            <h2>Exercício 9:</h2>
+            <form>
+              <p>Quais foram os principais temas abordados pelos escritores do Pré-Modernismo?</p>
+              <ol type="a">
+                <li> <input type="radio" name="q9" value="a"> Conflitos familiares e relações amorosas</li>
+                <li> <input type="radio" name="q9" value="b"> Crítica política e visão nacionalista</li>
+                <li> <input type="radio" name="q9" value="c"> Questões sociais e retrato da realidade brasileira</li>
+                <li> <input type="radio" name="q9" value="d"> Temas religiosos e reflexões filosóficas</li>
+              </ol>
+              <div class="answer" id="answer9">
+                Resposta correta: (c) Questões sociais e retrato da realidade brasileira
+              </div>
+              <button type="button" class="button" onclick="showAnswer('answer9')">Mostrar Resposta</button>
+            </form>
+            <hr>
+          
+            <!-- Exercício 10 -->
+            <h2>Exercício 10:</h2>
+            <form>
+              <p>Qual é a importância de Augusto dos Anjos e do Pré-Modernismo na literatura brasileira?</p>
+              <ol type="a">
+                <li> <input type="radio" name="q10" value="a"> Augusto dos Anjos e o Pré-Modernismo representaram uma ruptura com os padrões literários vigentes e trouxeram temáticas inovadoras</li>
+                <li> <input type="radio" name="q10" value="b"> Augusto dos Anjos e o Pré-Modernismo tiveram pouca relevância na literatura brasileira</li>
+                <li> <input type="radio" name="q10" value="c"> Augusto dos Anjos e o Pré-Modernismo foram responsáveis por valorizar o estilo clássico de escrita</li>
+                <li> <input type="radio" name="q10" value="d"> Augusto dos Anjos e o Pré-Modernismo influenciaram fortemente o movimento literário do Romantismo</li>
+              </ol>
+              <div class="answer" id="answer10">
+                Resposta correta: (a) Augusto dos Anjos e o Pré-Modernismo representaram uma ruptura com os padrões literários vigentes e trouxeram temáticas inovadoras
+              </div>
+              <button type="button" class="button" onclick="showAnswer('answer10')">Mostrar Resposta</button>
+            </form>
+            
+          
+          </section>
+          <a href="index.html"><input type="button" class="button" id="voltar" value="Voltar para página principal "></a>
+      </main>
+    
+      
+    
+      <script>
+         function showAnswer(answerId) {
+    var answer = document.getElementById(answerId);
+
+    if (answer.style.display === 'block') {
+      answer.style.display = 'none';
+    } else {
+      answer.style.display = 'block';
+    }
+  }
+      </script>
+    </body>
+</body>
+</html>

@@ -1,0 +1,159 @@
+@media (min-width: 900px) and (max-width: 1400px){
+  main{
+      width: 900px;
+      margin: auto;
+  }
+
+  
+}
+@media (min-width: 700px) and (max-width: 900px){
+  main{
+      width: 680px;
+      margin: auto;
+  }
+  
+}
+@media (min-width: 500px) and (max-width: 700px){
+  main{
+      width: 480px;
+      margin: auto;
+  }
+  
+}
+@media (min-width: 340px) and (max-width: 500px) {
+  main{
+          width: 300px;
+          margin: auto;
+  }
+  
+}
+body {
+  background-color: #025940;
+  font-family: Arial, sans-serif;
+
+}
+p{
+  text-align: justify;
+  text-indent: 2em ;
+  padding: 10px;
+  color: black;
+}
+
+  section{
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #ffffffe0;
+
+}
+#T1{
+  color: white;
+}
+
+h1, h2, h3 {
+  color: #03A64A;
+}
+
+
+.imagem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  #algusto>img{
+    border-radius: 50%;
+  }
+
+  #algusto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+/* Exemplo de estilo para um botão */
+.button {
+  display: inline-block;
+  background-color: #026873;
+  color: #fff;
+  margin-top: 5px;
+  padding: 5px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #03A64A;
+}
+/* Estilos gerais */
+
+body {
+  background-color: #025940;
+  font-family: Arial, sans-serif;
+  color: #03A64A;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos do cabeçalho */
+
+header {
+  background-color: #024059;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #03A64A;
+  font-size: 24px;
+}
+
+/* Estilos do conteúdo principal */
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #024059;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* Estilos de links */
+
+a {
+  color: #002024;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #026873;
+}
+
+/* Estilos para o rodapé (opcional) */
+
+footer {
+  background-color: #024059;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
